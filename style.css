@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+h2{
+    color: rgb(255, 208, 1);
+    font-family: 'Caveat', cursive;
+}
+.head-color1{
+    color: rebeccapurple;
+}
+p{
+    font-family: 'Yanone Kaffeesatz', sans-serif; 
+}
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 75%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(42, 1, 88), rgb(224, 130, 212));
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+}
+.top-side{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
