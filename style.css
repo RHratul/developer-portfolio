@@ -12,11 +12,25 @@ h2{
 .head-color1{
     color: rebeccapurple;
 }
+.about-dream{
+color: rgb(253, 92, 253);
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.target{
+    color: rgb(252, 164, 0);
+}
 p{
     font-family: 'Yanone Kaffeesatz', sans-serif; 
+    color: rgb(110, 110, 110);
+    font-size: 20px;
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -32,6 +46,16 @@ section{
     border-radius: 5px;
     color: rgb(255, 255, 255);
     font-weight: 700;
+    font-family: 'Patrick Hand', cursive;
+}
+.link-key{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(243, 131, 187), rgb(134, 96, 223));
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-family: 'Patrick Hand', cursive;
 }
 .top-side{
     background-image: url(images/top-banner.png);
